@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 function App() {
     
-    const [ name, setName ] = useState("my name");
+    const [ name, setName ] = useState("");
 
     const handleChange = (event) => {
         setName(event.target.value)
